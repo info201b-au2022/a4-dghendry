@@ -6,6 +6,7 @@ output: html_document
 ---
 
 ```{r echo=FALSE, eval=TRUE, message=FALSE}
+# URL: https://info201b-au2022.github.io/a4-dghendry/
 source("../source/a4-helpers.R")
 source("../source/analysis.R")
 ```
@@ -22,6 +23,9 @@ As you know, this is a markdown report. The [R Markdown Cheatsheet](https://www.
 
 * Here's a test of a dynamic variable. Say **"`r q1_string`!!!** 
 * Here's another test. A vector
+* Another bullet point 
+* Another *special* bullet point 
+
 of numbers: `r test_query2(num)`.
 
 Recall that _{r echo=TRUE}_ can be used to display the code, 
